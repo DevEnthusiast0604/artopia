@@ -1,0 +1,52 @@
+/* .welcome{
+    width: 100%;
+    height: auto;
+    animation: pump 5s ease-in-out;
+}
+
+@keyframes pump {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+} */
+
+.artopiaheader {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Grandstander Variable', system-ui;
+  font-weight: bolder;
+  color: white;
+  font-size: 40px;
+  text-shadow: 
+        -1px -1px 0 rgb(168, 41, 168),  
+         1px -1px 0 rgb(224, 28, 224),
+        -1px  1px 0 rgb(222, 128, 222),
+         1px  1px 0 rgb(176, 13, 176),
+        -2px -2px 0 rgb(184, 8, 184),
+         2px -2px 0 rgb(144, 21, 144),
+        -2px  2px 0 rgb(222, 128, 222),
+         2px  2px 0 rgb(233, 12, 233);
+}
+
+
+
+.divider {
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: -90px;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: rgb(186, 70, 139);
+    transform-origin: 0%;
+  }

@@ -1,0 +1,67 @@
+.artopiaaboutus {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 65px;
+    font-family: 'Grandstander Variable', system-ui;
+    font-weight: bolder;
+    color: white;
+    font-size: 40px;
+    text-shadow:
+        -1px -1px 0 rgb(168, 41, 168),
+        1px -1px 0 rgb(224, 28, 224),
+        -1px 1px 0 rgb(222, 128, 222),
+        1px 1px 0 rgb(176, 13, 176),
+        -2px -2px 0 rgb(184, 8, 184),
+        2px -2px 0 rgb(144, 21, 144),
+        -2px 2px 0 rgb(222, 128, 222),
+        2px 2px 0 rgb(233, 12, 233);
+}
+
+.Box {
+    width: 660px;
+    height: 535px;
+    box-shadow: 0px 0px 10px 2px rgb(233, 138, 220);
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    color: black;
+    background-color: rgba(214, 164, 203, 0.496);
+    margin-left: 850px;
+    margin-top: -532px;
+}
+
+.boxheading {
+    text-align: center;
+    margin-top: -50px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 rgb(168, 41, 168),
+        1px -1px 0 rgb(224, 28, 224),
+        -1px 1px 0 rgb(222, 128, 222),
+        1px 1px 0 rgb(176, 13, 176),
+        -2px -2px 0 rgb(184, 8, 184),
+        2px -2px 0 rgb(144, 21, 144),
+        -2px 2px 0 rgb(222, 128, 222),
+        2px 2px 0 rgb(233, 12, 233);
+    margin-bottom: 20px;
+}
+
+.boxtext {
+    font-family: 'Source Code Pro Variable', monospace;
+    font-size: medium;
+    margin-top: 0;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.boxtexttitle {
+    font-family: 'Source Code Pro Variable', monospace;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+    color: rgb(0, 0, 0);
+
+}
+
+

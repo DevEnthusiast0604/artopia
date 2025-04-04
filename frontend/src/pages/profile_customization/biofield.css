@@ -1,0 +1,115 @@
+#bioform {
+    width: 400px;
+    max-width: 100%;
+    height: 700px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    font-family: "Poppins", sans-serif;
+    margin-top: 1px;
+    margin-right: 550px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.butimg {
+    width: 3%;
+    margin-right: 1750px;
+    background-color: #f33ec9;
+    border-radius: 15px;
+    margin-left: -350px;
+    margin-bottom: 1px;
+  }
+
+#bioform h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(15, 15, 15);
+    font-family: "Super Normal";
+}
+
+#bioform form label {
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#bioform img#logo {
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#bioform p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 70px;
+    margin-top: -40px;
+}
+#bioform form button[type="button"] {
+    margin-left: 350px;
+    position: relative;
+    top: 10px;
+
+  }
+
+.textarea {
+    width: 90%;
+    padding: 12px;
+    border: 2px solid rgb(158, 139, 150);
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 40px; /* Increased margin to ensure spacing */
+    margin-left: 20px;
+    height: 200px;
+    text-align: center;
+  }
+
+#bioform form input[type="submit"] {
+    width: 30%;
+    padding: 12px;
+    background-color: rgb(210, 38, 170);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-left: 130px;
+    margin-top: 25px; /* Adjusted to reduce overlap */
+    position: relative;
+}
+
+#bioform form input[type="button"] {
+    width: 20%;
+    padding: 12px;
+    background-color: rgb(213, 34, 171);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+#bioform form input[type="submit"]:hover,
+#bioform form input[type="button"]:hover {
+    background-color: rgb(152, 36, 108);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+

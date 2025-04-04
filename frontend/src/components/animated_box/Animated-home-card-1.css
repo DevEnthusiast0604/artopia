@@ -1,0 +1,39 @@
+.card {
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 4px 8px rgba(6, 6, 6, 0.2);
+    background: #fff;
+    margin: 20px;
+    transition: transform 0.2s ease-in-out;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.card-image {
+    width: 60%;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+.card-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-text h2 {
+    margin: 0 0 10px;
+    color: black;
+}
+
+.card-text p {
+    margin: 0px;
+    color: #0c0909;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.therapycontainer {
+  text-decoration: none;;
+}

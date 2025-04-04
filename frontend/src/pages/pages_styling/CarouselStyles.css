@@ -1,0 +1,46 @@
+.carousel-root {
+  width: 50%; /* Make sure the carousel takes the full width of its container */
+  margin-left: 10px;
+  box-shadow: 0px 0px 10px 2px rgb(233, 138, 220);
+  border-radius: 15px;
+  margin-top: 30px;
+  height: 530px;
+  background-color: rgba(214, 164, 203, 0.496);
+  
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  filter: brightness(0.9) contrast(1.9);
+  image-rendering: auto; /* Let the browser decide the best rendering */
+  border-radius: 15px;
+  object-fit: cover;
+  margin-top: 37px;
+}
+
+/* Hide both arrow buttons */
+.carousel .control-arrow {
+  display: none;
+}
+
+.carousel  
+.carousel.carousel-slider {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.carousel .control-dots .dot {
+  background: #000; /* Customize the pagination bullet color */
+  width: 10px;
+  height: 10px;
+}
+
+.carousel .control-dots .dot.selected {
+  background: #df3ebf; /* Customize the active pagination bullet color */
+}
